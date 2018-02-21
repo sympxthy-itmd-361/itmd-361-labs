@@ -1,0 +1,41 @@
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+h2 {
+  font-size: 1em;
+}
+ul li {
+  padding-bottom: 0.5em;
+}
+input, textarea {
+  width: 100%;
+  padding-bottom: 1.5em;
+  box-sizing: border-box;
+  padding: 0.25em;
+  font-family: inherit;
+  font-size: inherit;;
+}
+input[type="submit"] {
+  background: #cacaca;
+  border-radius: 0.3em;
+}
+textarea {
+  height: 10em;
+  font-size: 1.05em;
+  resize: none;
+}
+
+.form {
+  list-style: none;
+}
+.container {
+  display: grid;
+}
+.select input {
+  width: auto;
+}
+
+#my-info, #my-avail {
+  width: 50%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ITMD 361: Fundamentals of Web Development</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" href="screen.css" />
+</head>
+
+<body>
+  <h1>Volunteer Form</h1>
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post" class="container">
+    <div id="my-info">
+      <h2>My Info</h2>
+      <ul class="form">
+        <li><label>First Name: <input type="text" name="first_name_field"></label></li>
+        <li><label>Last Name: <input type="text" name="last_name_field"></label></li>
+        <li><label>Phone Number: <input type="tel" name="phone_field"></label></li>
+        <li><label>Email Address: <input type="email" name="email_field"></label></li>
+        <li class="select">
+          <label for="gender_field">Gender: </label>
+          <input type="radio" id="gender_field" value="Male">Male
+          <input type="radio" id="gender_field1" value="Female">Female
+        </li>
+        <li>
+          <label>Age:
+            <select name = "age_field">
+              <option value="under 18">under 18</option>
+              <option value="18-24">18-24</option>
+              <option value="25-34">25-34</option>
+              <option value="35-44">35-44</option>
+              <option value="45-54">45-54</option>
+              <option value="55-64">55-64</option>
+              <option value="65 and over">65 and over</option>
+            </select>
+          </label>
+        </li>
+      </ul>
+    </div>
+
+    <div id="my-avail">
+      <h2>My Availability</h2>
+      <ul class="select form">
+        <li><label for="available_field">Days Availability: </label></li>
+        <li><label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label></li>
+        <li><label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label></li>
+        <li><label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label></li>
+        <li><label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label></li>
+        <li><label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label></li>
+        <li><label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label></li>
+        <li><label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label></li>
+
+        <li><label>Any Comment?</label></li>
+        <li><textarea name="comments_field"></textarea></li>
+        <li><input type="hidden" name="hidden_field" value="yzhang121"></li>
+        <li><input type="submit" value="Send Me"></li>
+      </ul>
+    </div>
+  </form>
+</body>
+
+</html>
