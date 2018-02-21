@@ -14,10 +14,10 @@
     <div id="my-info">
       <h2>My Info</h2>
       <ul class="form">
-        <li><label>First Name: <input type="text" name="first_name_field"></label></li>
-        <li><label>Last Name: <input type="text" name="last_name_field"></label></li>
-        <li><label>Phone Number: <input type="tel" name="phone_field"></label></li>
-        <li><label>Email Address: <input type="email" name="email_field"></label></li>
+        <li><label>First Name<input type="text" name="first_name_field" placeholder="Joe"></label></li>
+        <li><label>Last Name<input type="text" name="last_name_field" placeholder="Lee"></label></li>
+        <li><label>Phone Number<input type="tel" name="phone_field" placeholder="2333333333"></label></li>
+        <li><label>Email Address<input type="email" name="email_field" placeholder="example@domail.com"></label></li>
         <li class="select">
           <label for="gender_field">Gender: </label>
           <input type="radio" id="gender_field" value="Male">Male
@@ -42,14 +42,18 @@
     <div id="my-avail">
       <h2>My Availability</h2>
       <ul class="select form">
-        <li><label for="available_field">Days Availability: </label></li>
-        <li><label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label></li>
-        <li><label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label></li>
-        <li><label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label></li>
-        <li><label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label></li>
-        <li><label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label></li>
-        <li><label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label></li>
-        <li><label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label></li>
+        <li><label for="available_field">Days Availability</label></li>
+        <li>
+          <label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label>
+          <label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label>
+          <label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label>
+          <label>Wednesday<input type="checkbox" name="available_field[]" value="Wednesday"></label>
+        </li>
+        <li>
+          <label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label>
+          <label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label>
+          <label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label>
+        </li>
 
         <li><label>Any Comment?</label></li>
         <li><textarea name="comments_field"></textarea></li>

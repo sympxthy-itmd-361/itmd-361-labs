@@ -8,6 +8,7 @@ h2 {
 ul li {
   padding-bottom: 0.5em;
 }
+
 input, textarea {
   width: 100%;
   padding-bottom: 1.5em;
@@ -25,6 +26,7 @@ textarea {
   font-size: 1.05em;
   resize: none;
 }
+
 
 .form {
   list-style: none;
