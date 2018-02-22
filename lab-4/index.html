@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>ITMD 361: Fundamentals of Web Development</title>
+  <title>ITMD-361 Lab 3 Form Processing</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" href="screen.css" />
@@ -19,9 +19,11 @@
         <li><label>Phone Number<input type="tel" name="phone_field" placeholder="2333333333"></label></li>
         <li><label>Email Address<input type="email" name="email_field" placeholder="example@domail.com"></label></li>
         <li class="select">
-          <label for="gender_field">Gender: </label>
-          <input type="radio" id="gender_field" value="Male">Male
-          <input type="radio" id="gender_field1" value="Female">Female
+          <label>Gender: </label>
+          <label for="gender_field">Male</label>
+          <input type="radio" name="gender_field" value="Male">
+          <label for="gender_field">Female</label>
+          <input type="radio" name="gender_field" value="Female">
         </li>
         <li>
           <label>Age:
@@ -54,7 +56,6 @@
           <label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label>
           <label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label>
         </li>
-
         <li><label>Any Comment?</label></li>
         <li><textarea name="comments_field"></textarea></li>
         <li><input type="hidden" name="hidden_field" value="yzhang121"></li>

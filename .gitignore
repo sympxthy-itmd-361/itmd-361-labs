@@ -1,1 +1,4 @@
 .DS_Store
+.htmllintrc
+.stylelintrc
+.eslintrc.json.with-comments
