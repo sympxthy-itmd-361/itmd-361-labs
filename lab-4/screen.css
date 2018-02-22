@@ -27,7 +27,6 @@ textarea {
   resize: none;
 }
 
-
 .form {
   list-style: none;
 }
@@ -40,4 +39,7 @@ textarea {
 
 #my-info, #my-avail {
   width: 50%;
+  border: 0.1em solid #444;
+  padding-left: 2.5%;
+  padding-right: 5%;
 }

@@ -14,16 +14,16 @@
     <div id="my-info">
       <h2>My Info</h2>
       <ul class="form">
-        <li><label>First Name<input type="text" name="first_name_field" placeholder="Joe"></label></li>
-        <li><label>Last Name<input type="text" name="last_name_field" placeholder="Lee"></label></li>
+        <li><label>First Name<input type="text" name="first_name_field" placeholder="John"></label></li>
+        <li><label>Last Name<input type="text" name="last_name_field" placeholder="Smith"></label></li>
         <li><label>Phone Number<input type="tel" name="phone_field" placeholder="2333333333"></label></li>
         <li><label>Email Address<input type="email" name="email_field" placeholder="example@domail.com"></label></li>
         <li class="select">
           <label>Gender: </label>
-          <label for="gender_field">Male</label>
-          <input type="radio" name="gender_field" value="Male">
-          <label for="gender_field">Female</label>
-          <input type="radio" name="gender_field" value="Female">
+          <label for="male">Male</label>
+          <input type="radio" name="gender_field" id="male" value="Male">
+          <label for="female">Female</label>
+          <input type="radio" name="gender_field" id="female" value="Female">
         </li>
         <li>
           <label>Age:
@@ -44,7 +44,7 @@
     <div id="my-avail">
       <h2>My Availability</h2>
       <ul class="select form">
-        <li><label for="available_field">Days Availability</label></li>
+        <li>Days Availability</li>
         <li>
           <label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label>
           <label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label>
